@@ -10,3 +10,5 @@ shap
 scikit-optimize
 matplotlib
 joblib
+statsmodels
+
