@@ -249,7 +249,7 @@ def input_parameters_ui():
         inputs['Time(min)'] = st.slider(
             "Time (min)", 
             float(X['Time(min)'].min()), 
-            float(X['Time(min)'].max(),
+            float(X['Time(min)'].max()),
             float(X['Time(min)'].median()),
             step=1.0,
             key="time_input"
