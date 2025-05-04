@@ -24,7 +24,7 @@ import time
 
 
 # Set page config FIRST
-st.set_page_config(layout="wide", page_icon="💊💊", page_title="🧪 Advanced Drug Release Prediction", initial_sidebar_state="expanded")
+st.set_page_config(layout="wide", page_icon="💊💊", page_title="💊 Advanced Drug Release Prediction", initial_sidebar_state="expanded")
 
 # Load the dataset
 df = pd.read_csv('taguchi1.csv')
